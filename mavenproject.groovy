@@ -7,7 +7,7 @@ job ('first maven job dsl') {
 		scm('* * * * *')
 		}
 	steps{
-		maven('clean,package', 'prac-pro/blob/master/pom.xml')
+		maven('clean , package', 'prac-pro/pom.xml')
 		}
 	publishers{
 		//archive this .war file generated
